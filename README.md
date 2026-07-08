@@ -4,7 +4,7 @@
 
 ## Description
 
-A VS Code extension that provides the currently open file, cursor position, and selection in VS Code to MCP-compatible AI tools.
+A VS Code extension for telling MCP-compatible AI tools where you are looking in your code — which file, cursor position, and selection.
 
 ## Setup
 
@@ -86,7 +86,7 @@ It returns the current VS Code active editor context:
 
 ## 機能説明
 
-現在 VS Code で開いているファイル、カーソルの位置、選択範囲を MCP 対応 AI ツールに提供する VS Code 拡張機能です。
+今あなたが VS Code のどこを見ているか — 開いているファイル、カーソルの位置、選択範囲 — を MCP 対応 AI ツールに伝えるための拡張機能です。
 
 ## 設定
 
