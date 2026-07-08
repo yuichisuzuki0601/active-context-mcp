@@ -1,0 +1,12 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": ".",
+    },
+  ],
+  "settings": {
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+  },
+}

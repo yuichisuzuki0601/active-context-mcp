@@ -1,0 +1,14 @@
+.gitignore
+.vscodeignore
+*.vsix
+images/*.svg
+*.code-workspace
+node_modules/
+package-lock.json
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.*
+.DS_Store

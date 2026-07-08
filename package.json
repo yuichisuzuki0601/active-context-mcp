@@ -1,0 +1,44 @@
+{
+  "name": "active-context-mcp",
+  "displayName": "Active Context MCP",
+  "description": "A VS Code extension that provides the currently open file, cursor position, and selection in VS Code to MCP-compatible AI tools.",
+  "version": "1.0.0",
+  "publisher": "ysd",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuichisuzuki0601/active-context-mcp.git"
+  },
+  "homepage": "https://github.com/yuichisuzuki0601/active-context-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/yuichisuzuki0601/active-context-mcp/issues"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "context",
+    "cursor",
+    "selection",
+    "mcp"
+  ],
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "scripts": {
+    "package": "vsce package"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "bin": {
+    "active-context-mcp": "./mcp-server.js"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "latest"
+  }
+}
