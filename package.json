@@ -2,7 +2,7 @@
   "name": "active-context-mcp",
   "displayName": "Active Context MCP",
   "description": "A VS Code extension for telling MCP-compatible AI tools where you are looking in your code — which file, cursor position, and selection.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "ysd",
   "license": "MIT",
   "icon": "images/icon.png",

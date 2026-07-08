@@ -65,7 +65,7 @@ async function handleRequest(message) {
       success(message.id, {
         tools: [
           {
-            name: 'get_active_context',
+            name: 'get',
             description: 'Get the current VS Code active editor, cursor, and selection context.',
             inputSchema: {
               type: 'object',
@@ -80,7 +80,7 @@ async function handleRequest(message) {
 
     if (message.method === 'tools/call') {
       const toolName = message.params?.name;
-      if (toolName !== 'get_active_context') {
+      if (toolName !== 'get') {
         failure(message.id, -32602, `Unknown tool: ${toolName}`);
         return;
       }

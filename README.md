@@ -35,7 +35,7 @@ args: -y active-context-mcp
 The MCP command exposes one tool:
 
 ```text
-get_active_context
+get
 ```
 
 It returns the current VS Code active editor context:
@@ -65,7 +65,7 @@ It returns the current VS Code active editor context:
 
 - The VS Code extension writes the current editor state (file, cursor, selection) to a temporary file whenever it changes.
   - File: `os.tmpdir()/active-context-mcp/active-context.json`
-- The MCP server reads that file and returns the content when the AI tool calls `get_active_context`.
+- The MCP server reads that file and returns the content when the AI tool calls `get`.
 
 ## Requirements
 
@@ -117,7 +117,7 @@ args: -y active-context-mcp
 MCP command は次のツールを提供します。
 
 ```text
-get_active_context
+get
 ```
 
 返す内容は次のとおりです。
@@ -147,7 +147,7 @@ get_active_context
 
 - VS Code 拡張機能が、エディタの状態（ファイル、カーソル、選択範囲）を変更のたびに一時ファイルに書き出します。
   - ファイル: `os.tmpdir()/active-context-mcp/active-context.json`
-- AI ツールが `get_active_context` を呼ぶと、MCP サーバーがそのファイルを読んで返します。
+- AI ツールが `get` を呼ぶと、MCP サーバーがそのファイルを読んで返します。
 
 ## 必要なもの
 
