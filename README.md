@@ -1,5 +1,7 @@
 # Active Context MCP
 
+[GitHub repository](https://github.com/yuichisuzuki0601/active-context-mcp)
+
 ## Description
 
 A VS Code extension that provides the currently open file, cursor position, and selection in VS Code to MCP-compatible AI tools.
@@ -79,6 +81,8 @@ It returns the current VS Code active editor context:
 - When workspace folders change
 
 ---
+
+[GitHub リポジトリ](https://github.com/yuichisuzuki0601/active-context-mcp)
 
 ## 機能説明
 
